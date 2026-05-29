@@ -1,0 +1,25 @@
+# --- Identity ---
+id: "fd688bb7-5ae3-40da-aed1-fe79025d6683"
+name: "draft-response"
+display_name: "Draft Response"
+description: "Drafts a customer-facing response based on intent classification and extracted details"
+version: "1.0.0"
+engine: ">=0.1.0"
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+licence: "MIT"
+repository: "https://github.com/skrpts/hub-shared-draft-response"
+category: "shared"
+tags:
+  - "shared"
+  - "prompt"
+contents:
+  skills: 0
+  prompts: 1
+  workflows: 0
+  services: 0
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 1
