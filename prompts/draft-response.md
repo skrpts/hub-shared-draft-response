@@ -4,6 +4,11 @@ id: draft-response
 title: "Draft Response"
 description: "Drafts a customer-facing response based on intent classification and extracted details"
 tags: [Production, Communication]
+context_params:
+  source:
+    label: "Classification and Details"
+    description: "The classification and Details supplied by the upstream step."
+    required: true
 
 metadata:
   output_format: markdown
@@ -20,7 +25,7 @@ You are a customer support specialist. Draft a response based on the classified 
 
 ### Classification and Details
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Instructions
 
